@@ -34,7 +34,7 @@
 
 ## 📥 使用方法
 
-### 1️⃣ 远程订阅方式（推荐）
+### 远程订阅方式（推荐）
 
 在 OpenClash 中添加规则提供者：
 
@@ -43,6 +43,6 @@ rule-providers:
   adblock:
     type: http
     behavior: domain
-    url: https://github.com/richardkurspe/openclash-rules/rule.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rule.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
