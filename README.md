@@ -43,6 +43,6 @@ rule-providers:
   adblock:
     type: http
     behavior: domain
-    url: https://你的仓库地址/ad.list
+    url: https://github.com/richardkurspe/openclash-rules/rule.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
