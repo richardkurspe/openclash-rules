@@ -9,7 +9,7 @@
 
 本项目维护了一套适用于 **OpenClash / Clash.Meta** 的去广告规则，主要目标是：
 
-- 🚫 屏蔽常见广告域名（App / Web / 跟踪器）
+- 🚫 屏蔽常见海外广告域名（App / Web / 跟踪器）
 - ⚡ 降低规则体积，提高匹配效率
 - 🧠 避免误杀（兼顾可用性）
 - 🔄 持续更新 & 优化
@@ -33,3 +33,19 @@
 ---
 
 ## 📂 规则结构
+---
+
+## 📥 使用方法
+
+### 1️⃣ 远程订阅方式（推荐）
+
+在 OpenClash 中添加规则提供者：
+
+```yaml
+rule-providers:
+  adblock:
+    type: http
+    behavior: domain
+    url: https://你的仓库地址/ad.list
+    path: ./ruleset/ad.yaml
+    interval: 86400
