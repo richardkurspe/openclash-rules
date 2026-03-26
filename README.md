@@ -45,7 +45,7 @@
 
 ---
 
-## 📌 文件目录
+## 📁 文件目录
 
 ```bash
 openclash-rules/
