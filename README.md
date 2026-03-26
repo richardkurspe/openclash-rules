@@ -43,7 +43,7 @@ openclash-rules/
 │   ├── 📄Additional/    # 附加规则
 │   ├── 📄Special/       # 特殊规则
 │   └── 📄Direct/        # 直连规则
-```diff
+```
 
 ---
 
