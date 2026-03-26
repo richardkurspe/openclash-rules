@@ -50,7 +50,7 @@
 ```bash
 openclash-rules/
 ├─ 📄LICENSE
-├─ 📄READ.MD          
+├─ 📄READ.md          
 ├─ 📁Rules/              
 │  ├── 📄Reject.yaml     # 去广告规则
 │  ├── 📄Additional.yaml # 附加规则
