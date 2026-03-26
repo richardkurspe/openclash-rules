@@ -51,7 +51,7 @@
 openclash-rules/
 ├─ 📄READ.MD/          
 ├─ 📁Rules/              
-│  ├── 📄Reject.yaml/    # 去广告规则
+│  ├── [📄Reject.yaml](./rules/Reject.yaml)/    # 去广告规则
 │  ├── 📄Additional.yaml/# 附加规则
 │  ├── 📄Special.yaml/   # 特殊规则
 │  └── 📄Direct.yaml/    # 直连规则
@@ -80,28 +80,28 @@ rule-providers:
   Reject:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Reject.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rules/Reject.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
 
   Additional:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Additional.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rules/Additional.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
 
   Special:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Special.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rules/Special.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
 
    Direct:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Direct.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rules/Direct.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
 
