@@ -37,12 +37,12 @@
 
 ```bash
 openclash-rules/
-├── 📄Readme.md/          
+├── 📄READ.MD/          
 ├── 📁Rules/              
-│   ├── 📄Reject/        # 去广告规则
-│   ├── 📄Additional/    # 附加规则
-│   ├── 📄Special/       # 特殊规则
-│   └── 📄Direct/        # 直连规则
+│   ├── 📄Reject.yaml/    # 去广告规则
+│   ├── 📄Additional.yaml/# 附加规则
+│   ├── 📄Special.yaml/   # 特殊规则
+│   └── 📄Direct.yaml/    # 直连规则
 ```
 
 ---
