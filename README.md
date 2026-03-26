@@ -10,6 +10,7 @@
 ![Lightweight](https://img.shields.io/badge/Design-Lightweight-orange)
 ![Platform](https://img.shields.io/badge/Platform-OpenClash%20%7C%20Clash.Meta-blue)
 ![Ads Blocked](https://img.shields.io/badge/Ads-Blocked-red)
+![Security](https://img.shields.io/badge/Security-Tested-green)
 
 > 🎯 一个专为 **OpenClash / Clash.Meta** 打造的高效规则集,内含去广告规则&附加代理规则&直连规则&特殊网站分流规则等等,一个项目全搞定！ 
 >
