@@ -1,0 +1,90 @@
+rules:
+#DIRECT-Website
+    - 'DOMAIN,9pvc9ewxcc.r.worldssl.net' #Mitce-Update
+    - 'DOMAIN,api.ttt.sh' #OpenClash-Check
+    - 'DOMAIN-SUFFIX,skk.moe' #Openclash-Check
+    - 'DOMAIN-SUFFIX,www.macworld.com'
+    - 'DOMAIN-SUFFIX,un.org'
+    - 'DOMAIN-SUFFIX,walletron.com' #Apple-wallet
+    - 'DOMAIN-SUFFIX,hostarmada.com' #js
+    - 'DOMAIN-SUFFIX,www.drupal.org' #jsvps
+    - 'DOMAIN-SUFFIX,vercel.com'
+    - 'DOMAIN-SUFFIX,fluidplayer.com' #player
+    - 'DOMAIN-SUFFIX,takedmca.com'
+#CDN&JS&CSS
+    - 'DOMAIN-SUFFIX,zohocdn.com'
+    - 'DOMAIN-SUFFIX,zohopublic.com'
+#RichardTV+Porn
+    - 'DOMAIN-SUFFIX,watch-my-gf.com'
+    - 'DOMAIN-SUFFIX,v155p.com'
+    - 'DOMAIN-KEYWORD,ukuapi'
+    - 'DOMAIN-SUFFIX,bgm.tv'
+    - 'DOMAIN-SUFFIX,jpxjpg4.top'
+    - 'DOMAIN-SUFFIX,155260322.top'
+    - 'DOMAIN-SUFFIX,ijycnd.com'
+    - 'DOMAIN-SUFFIX,ukubf5'
+    - 'DOMAIN-SUFFIX,baisiweiting.com'
+    - 'DOMAIN-SUFFIX,fengbao9.com'
+    - 'DOMAIN-SUFFIX,ymuuy.com'
+    - 'DOMAIN-SUFFIX,huyall.com'
+    - 'DOMAIN-SUFFIX,hongniuzyimage.com'
+    - 'DOMAIN-SUFFIX,jinyingimage.com'
+    - 'DOMAIN-SUFFIX,huyajs.com'
+    - 'DOMAIN-SUFFIX,xlzyd.com'
+    - 'DOMAIN-SUFFIX,xluuss.com'
+    - 'DOMAIN-SUFFIX,tmdb.org' #TMDB
+    - 'DOMAIN-SUFFIX,zuidapic.com'
+    - 'DOMAIN-SUFFIX,ckzyjpg.top'
+    - 'DOMAIN-SUFFIX,ikisfyigdaisasdad.com'
+    - 'DOMAIN-SUFFIX,kkzycdn.com'
+    - 'DOMAIN-SUFFIX,caiji.cyou'
+    - 'DOMAIN-SUFFIX,ukubf4.com'
+    - 'DOMAIN-SUFFIX,jpzy01.com'
+    - 'DOMAIN-SUFFIX,leduocdn.com'
+    - 'DOMAIN-SUFFIX,kkzycdn.com'
+    - 'DOMAIN-SUFFIX,ffzy-video.com'
+    - 'DOMAIN-SUFFIX,f0cwe.com'
+    - 'DOMAIN-SUFFIX,lzcdn31.com'
+    - 'DOMAIN-SUFFIX,ryiplay18.com'
+    - 'DOMAIN-SUFFIX,dytt-kan.com'
+    - 'DOMAIN-SUFFIX,yzzy31-play.com'
+    - 'DOMAIN-SUFFIX,wlcdn99.com'
+    - 'DOMAIN-SUFFIX,myqqdd.com'
+    - 'DOMAIN-SUFFIX,360zyx.vip'
+    - 'DOMAIN-SUFFIX,ukubf5.com'
+    - 'DOMAIN-SUFFIX,vwwwxy.com'
+    - 'DOMAIN-SUFFIX,ffzy-play10.com'
+    - 'DOMAIN-SUFFIX,dbzy5.com'
+    - 'DOMAIN-SUFFIX,zuidazym3u8.com'
+    - 'DOMAIN-SUFFIX,dytt-network.com'
+    - 'DOMAIN-SUFFIX,yzzyimg.online'
+    - 'DOMAIN-KEYWORD,yzzy'
+    - 'DOMAIN-KEYWORD,wangwangzy'
+    - 'DOMAIN-SUFFIX,dytt-tvs.com'
+    - 'DOMAIN-SUFFIX,youkupic.com'
+    - 'DOMAIN-SUFFIX,dytt-cinema.com'
+    - 'DOMAIN-SUFFIX,jpgjingpinx1.top'
+    - 'DOMAIN-SUFFIX,jpxm3u8.com'
+    - 'DOMAIN-SUFFIX,dytt-img.com'
+    - 'DOMAIN-SUFFIX,ukubf8.com'
+#Video-Net
+    - 'IP-CIDR,23.226.74.154/32'
+    - 'DOMAIN-SUFFIX,richard1688.top' #MoonTv
+    - 'DOMAIN-SUFFIX,qewbn.com' #MoonTv
+    - 'DOMAIN-SUFFIX,rsfcxq.com' #MoonTv
+    - 'DOMAIN-SUFFIX,rrcdnbf3.com' #MoonTv
+    - 'DOMAIN-SUFFIX,cloudfront.net'
+    - 'DOMAIN-SUFFIX,ddbbffcdn.com'
+    - 'DOMAIN-SUFFIX,ryplay7.com'
+    - 'DOMAIN-SUFFIX,moduzytuuu.com'
+#    - 'DOMAIN-SUFFIX,modujx12.com'
+    - 'DOMAIN-SUFFIX,ry-pic.com'
+    - 'DOMAIN-SUFFIX,bfikuncdn.com'
+    - 'DOMAIN-SUFFIX,qwe132456.cc'
+    - 'DOMAIN-SUFFIX,moduzytuuu.com'
+    - 'DOMAIN-SUFFIX,picbf.com'
+    - 'DOMAIN-SUFFIX,bfllvip.com'
+    - 'DOMAIN-SUFFIX,ryplay8.com'
+    - 'DOMAIN-SUFFIX,671268.xyz'
+    - 'DOMAIN-SUFFIX,mji.rip'
+    - 'DOMAIN-SUFFIX,xcasca.com'

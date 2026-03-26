@@ -1,0 +1,301 @@
+rules:
+#IP
+    - 'IP-CIDR6,2606:4700:3036::ac43:a475/128'            #GOOGLE
+    - 'IP-CIDR6,2606:4700:3033::6815:219b/128'            #GOOGLE
+    - 'IP-CIDR,221.122.73.9/32'       #Interlink
+    - 'IP-CIDR,35.244.196.182/32'     #Interlink
+    - 'IP-CIDR,31.13.87.33/16'
+    - 'IP-CIDR,23.237.148.61/32'      #NEWS
+#   - 'IP-CIDR,43.163.106.183/32'     #PikPak
+    - 'IP-CIDR,66.45.252.178/32'      #WFC
+    - 'IP-CIDR,3.115.183.197/32'      #Interlink
+#Self
+#    - 'DOMAIN,tv.richard1688.top'
+    - 'DOMAIN-SUFFIX,adjust.net.in'
+    - 'DOMAIN-SUFFIX,vercel.app'
+#DNS-Services
+     - 'DOMAIN-SUFFIX,eurodns.com'
+#    - 'DOMAIN-SUFFIX,twnic.tw'                          #TWDNS
+     - 'DOMAIN-SUFFIX,dns.sb'                            #HKDNS
+     - 'DOMAIN-SUFFIX,quad9.net'                         #GLODNS
+     - 'DOMAIN-KEYWORD,cloudflare-dns.com'               #CloudFlare
+     - 'DOMAIN-SUFFIX,mozilla.cloudflare-dns.com'        #CloudFlare
+     - 'IP-CIDR6,2606:4700:4700::1111/128'               #CloudFlare
+     - 'IP-CIDR6,2606:4700:4700::1001/128'               #CloudFlare
+     - 'IP-CIDR6,2a03:2880:f12d:83:face:b00c:0:25de/128' #CloudFlare                                
+     - 'IP-CIDR,1.1.1.1/32'            #CloudFlare
+     - 'IP-CIDR,1.0.0.1/32'            #CloudFlare
+     - 'IP-CIDR,162.159.61.4/32'       #CloudFlare
+     - 'IP-CIDR,172.64.41.4/32'        #CloudFlare
+#KEYWORD
+#   - 'DOMAIN-KEYWORD,wikipedia'       #WikiPedia
+    - 'DOMAIN-KEYWORD,jichang'
+    - 'DOMAIN-KEYWORD,freedom'
+#DNS-Leak-test
+    - 'DOMAIN-SUFFIX,browserscan.net'  #Test
+    - 'DOMAIN-SUFFIX,browserleaks.com' #Test
+    - 'DOMAIN-SUFFIX,browserleaks.org' #Test
+    - 'DOMAIN-SUFFIX,browserleaks.net' #Test
+    - 'DOMAIN-SUFFIX,surfshark.com'    #Test
+    - 'DOMAIN-SUFFIX,surfsharkdns.com' #Test
+    - 'DOMAIN-SUFFIX,ipleak.net'       #Test
+    - 'DOMAIN-SUFFIX,ipaddress.my'     #Test
+    - 'DOMAIN-SUFFIX,dnsleaktest.com'  #Test
+    - 'DOMAIN-SUFFIX,msftncsi.com'     #Test
+    - 'DOMAIN-SUFFIX,nordvpn.com'      #Test
+#    - 'DOMAIN-SUFFIX,test-ipv6.com'    #Test
+    - 'DOMAIN-SUFFIX,astrill.com'      #Test
+#News
+    - 'DOMAIN-SUFFIX,chinadigitaltimes.net'
+    - 'DOMAIN-SUFFIX,voachinese.com'   #VOA
+    - 'DOMAIN-SUFFIX,voanews.eu'       #VOA
+    - 'DOMAIN-SUFFIX,voanews.com'      #VOA
+    - 'DOMAIN-SUFFIX,gscontxt.net'     #BBC
+    - 'DOMAIN-SUFFIX,hrw.org'          #HRW
+    - 'DOMAIN-SUFFIX,theinitium.com'   #NEWS
+    - 'DOMAIN-SUFFIX,rfi.fr'
+    - 'DOMAIN-SUFFIX,rfa.org'          #NEWS
+    - 'DOMAIN-SUFFIX,6parker.com'      #NEWS
+    - 'DOMAIN-SUFFIX,wenxuecity.com'   #NEWS
+    - 'DOMAIN-SUFFIX,bbc.com'          #NEWS
+    - 'DOMAIN-SUFFIX,dw.com'           #NEWS
+    - 'DOMAIN-SUFFIX,co.uk'            #NEWS
+    - 'DOMAIN-SUFFIX,net.au'           #NEWS
+    - 'DOMAIN-SUFFIX,sydneytoday.com'  #NEWS
+    - 'DOMAIN-SUFFIX,creaders.net'     #NEWS
+    - 'DOMAIN-SUFFIX,nytimes.com'      #NEWS
+    - 'DOMAIN-SUFFIX,amnesty.org'      #NEWS
+    - 'DOMAIN-SUFFIX,hrichina.org'     #NEWS
+    - 'DOMAIN-SUFFIX,ban-gfw.com'      #NEWS
+    - 'DOMAIN-SUFFIX,bannedbook.org'   #NEWS
+    - 'DOMAIN-SUFFIX,poool.fr'         #NEWS
+    - 'DOMAIN-SUFFIX,outbrain.com'     #NEWS
+    - 'DOMAIN-SUFFIX,fmm.io'           #NEWS
+    - 'DOMAIN-SUFFIX,ownpage.fr'       #NEWS
+    - 'DOMAIN-SUFFIX,tiqcdn.com'       #NEWS
+    - 'DOMAIN-SUFFIX,crazyegg.com'     #NEWS
+    - 'DOMAIN-SUFFIX,scorecardresearch.com'   #NEWS
+    - 'DOMAIN-SUFFIX,quantserve.com'   #NEWS
+    - 'DOMAIN-SUFFIX,rfihub.com'       #NEWS
+    - 'DOMAIN-SUFFIX,unrulymedia.com'  #NEWS
+    - 'DOMAIN-SUFFIX,quantcount.com'
+    - 'DOMAIN-SUFFIX,bbc-reporting-api.app'
+    - 'DOMAIN-SUFFIX,the-ozone-project.com'
+    - 'DOMAIN-SUFFIX,newrelic.com'
+    - 'DOMAIN-SUFFIX,nr-data.net'      #web-ERR-server
+    - 'DOMAIN-SUFFIX,consentmanager.net'
+    - 'DOMAIN-SUFFIX,shareinvestor.com'
+    - 'DOMAIN-SUFFIX,consent.cmp.oath.com'
+    - 'DOMAIN-SUFFIX,onetrust.io'
+    - 'DOMAIN-SUFFIX,brightcove.com'#video
+    - 'DOMAIN-SUFFIX,brightcove.net'#video
+    - 'DOMAIN-SUFFIX,brightcovecdn.com'#video
+    - 'DOMAIN-SUFFIX,boltdns.net'      #brightcove
+    - 'DOMAIN-SUFFIX,sphlabs.com'      #zaobao
+    - 'DOMAIN-SUFFIX,zencdn.net'       #nikke-news
+    - 'DOMAIN-SUFFIX,bbhub.io'         #bloomberg
+#   - 'DOMAIN-SUFFIX,twr360.org'       #TwrNews
+    - 'DOMAIN-SUFFIX,brevo.com'
+    - 'DOMAIN-SUFFIX,datahub-srgssr.ch'
+#Movie
+    - 'DOMAIN-SUFFIX,newmitbbs.com'
+#Fiverr
+    - 'DOMAIN-SUFFIX,fiverr.com' #Fiverr
+    - 'DOMAIN-SUFFIX,mixpanel.com'
+    - 'DOMAIN-SUFFIX,contentful.com'
+    - 'DOMAIN-SUFFIX,fiverrcdn.com'
+    - 'DOMAIN-SUFFIX,forter.com'
+    - 'DOMAIN-SUFFIX,perimeterx.net'
+    - 'DOMAIN-SUFFIX,zdassets.com'
+#Internet
+#    - 'DOMAIN-SUFFIX,ip.sb'
+    - 'DOMAIN-SUFFIX,archive.org'     #Time-Machine
+    - 'DOMAIN-SUFFIX,threads.com'     #BBS
+    - 'DOMAIN-SUFFIX,idsduf.com'      #VPN
+    - 'DOMAIN-SUFFIX,nexusmods.com'   #Fallout
+    - 'DOMAIN-SUFFIX,nexus-cdn.com'   #Fallout
+    - 'DOMAIN-SUFFIX,heimago.top'   #BT
+    - 'DOMAIN-SUFFIX,whtjdasha.com   #VPN-update
+    - 'DOMAIN-SUFFIX,python.org'     #python
+#   - 'DOMAIN,access.mypikpak.com'     #PIKPAK-SPEED-Test
+#   - 'DOMAIN-SUFFIX,chatgpt.com'      #ChatGPT
+#   - 'DOMAIN-SUFFIX,openai.com'       #ChatGPT
+    - 'DOMAIN-SUFFIX,coze.com'         #AI
+    - 'DOMAIN-SUFFIX,messenger.com'    #Messenger
+    - 'DOMAIN-SUFFIX,translate.goog'   #Translate
+    - 'DOMAIN-SUFFIX,accuweather.com'  #Weather
+    - 'DOMAIN-SUFFIX,mozilla.org'      #FireFox
+    - 'DOMAIN-SUFFIX,hostloc.com'      #Hostloc
+    - 'DOMAIN-SUFFIX,pincong.rocks'    #PINCONG
+    - 'DOMAIN-SUFFIX,netflix.com'      #Netflix
+    - 'DOMAIN-SUFFIX,ipify.org'        #IPIFY
+    - 'DOMAIN-SUFFIX,quora.com'        #Zhihu
+    - 'DOMAIN-SUFFIX,v2ex.com'         #V2EX
+    - 'DOMAIN-SUFFIX,v2ex.co'
+    - 'DOMAIN-SUFFIX,v2ray.com'
+    - 'DOMAIN-SUFFIX,greasyfork.org'   #JAVA
+    - 'DOMAIN-SUFFIX,metacubex.one'    #DNS
+    - 'DOMAIN-SUFFIX,v2rayssr.com'     #TEC
+    - 'DOMAIN-SUFFIX,v2fly.org'        #TEC
+    - 'DOMAIN-SUFFIX,niu7.top'         #TEC
+    - 'DOMAIN-SUFFIX,pixlr.com'        #PIC
+    - 'DOMAIN-SUFFIX,vk.com'           #VK
+#    - 'DOMAIN-SUFFIX,plabsin.com'      #GreenTube
+#    - 'DOMAIN-SUFFIX,yougreentube.com' #GreenTube
+    - 'DOMAIN-SUFFIX,radio.garden'     #Radio
+    - 'DOMAIN-SUFFIX,radio.net'        #Radio
+    - 'DOMAIN-SUFFIX,ioam.de'          #Radio
+    - 'DOMAIN-SUFFIX,asnapieu.com'     #Radio
+    - 'DOMAIN-SUFFIX,radio.co'
+    - 'DOMAIN-KEYWORD,radio'
+    - 'DOMAIN-SUFFIX,radio.de'         #Radio
+    - 'DOMAIN-SUFFIX,radio-api.net'    #Radio
+    - 'DOMAIN-SUFFIX,bunny.net'
+    - 'DOMAIN-SUFFIX,myradiostream.com'
+    - 'DOMAIN-SUFFIX,xlmusic.fm'
+    - 'DOMAIN-SUFFIX,rg-tiles.b-cdn.net'
+    - 'DOMAIN-SUFFIX,gitbook.io'       #git
+    - 'DOMAIN-SUFFIX,gitbook.com'      #git
+    - 'DOMAIN-SUFFIX,tiandan.shop'     #VPN
+    - 'DOMAIN-SUFFIX,tdaxa.top'        #VPN
+    - 'DOMAIN-SUFFIX,sagernet.org'     #VPN
+    - 'DOMAIN-SUFFIX,famdom.com'       #Fandom
+    - 'DOMAIN-SUFFIX,fandom.com'       #Fandom
+    - 'DOMAIN-SUFFIX,yimg.com'         #Yahoo
+    - 'DOMAIN-SUFFIX,yahoodns.net'     #Yahoo    
+    - 'DOMAIN-SUFFIX,chrad.net'        #ERB
+    - 'DOMAIN-SUFFIX,fiendlist.info'   #ERB
+    - 'DOMAIN-SUFFIX,spotify.link'     #Spotify
+    - 'DOMAIN-SUFFIX,tospotify.com'    #Spotify
+    - 'DOMAIN-SUFFIX,spotify.com'      #Spotify
+    - 'DOMAIN-SUFFIX,spotifycdn.com'   #Spotify
+    - 'DOMAIN-SUFFIX,scdn.co'          #Spotify
+    - 'DOMAIN-SUFFIX,webpkgcache.com'  #BBS
+    - 'DOMAIN-SUFFIX,wallmama.com'     #BBS
+    - 'DOMAIN-SUFFIX,36kr.com'         #BBS
+    - 'DOMAIN-SUFFIX,inurl.top'        #BBS
+    - 'DOMAIN-SUFFIX,gravatar.com'     #BBS
+    - 'DOMAIN-SUFFIX,geph.io'          #BBS
+    - 'DOMAIN-SUFFIX,yitianshijie.net' #BBS
+    - 'DOMAIN-SUFFIX,yandex.net'       #Yandex
+    - 'DOMAIN-SUFFIX,ya.ru'            #Yandex
+    - 'DOMAIN,gamer-cds.cdn.hinet.net' #Bahamut
+    - 'DOMAIN,gamer2-cds.cdn.hinet.net'#Bahamut
+    - 'DOMAIN-SUFFIX,discord.com'      #Discord
+    - 'DOMAIN-SUFFIX,discord.gg'       #Discord
+    - 'DOMAIN-SUFFIX,discord.media'    #Discord
+    - 'DOMAIN-SUFFIX,discordapp.com'   #Discord
+    - 'DOMAIN-SUFFIX,discordapp.net'   #Discord
+    - 'DOMAIN-SUFFIX,discordstatus.com'#Discord
+    - 'DOMAIN-SUFFIX,fox.com'          #FOX
+    - 'DOMAIN-SUFFIX,foxdcg.com'       #FOX
+    - 'DOMAIN-SUFFIX,uplynk.com'       #FOX
+    - 'DOMAIN-SUFFIX,akamaized.net'    #FOX+
+    - 'DOMAIN-SUFFIX,foxplus.com'      #FOX+
+    - 'DOMAIN-SUFFIX,theplatform.com'  #FOX+
+    - 'DOMAIN-SUFFIX,vikacg.com'       #Vikacg
+    - 'DOMAIN-SUFFIX,picjs.xyz'        #Vikacg
+    - 'DOMAIN-SUFFIX,lin.ee'           #Line
+    - 'DOMAIN-SUFFIX,line.me'          #Line
+    - 'DOMAIN-SUFFIX,line.naver.jp'    #Line
+    - 'DOMAIN-SUFFIX,line-apps.com'    #Line
+    - 'DOMAIN-SUFFIX,line-cdn.net'     #Line
+    - 'DOMAIN-SUFFIX,line-scdn.net'    #Line
+    - 'DOMAIN-SUFFIX,nhncorp.jp'       #Line
+    - 'DOMAIN-SUFFIX,snapchat.com'     #Snap
+    - 'DOMAIN-SUFFIX,sc-cdn.net'       #Snap
+    - 'DOMAIN-SUFFIX,mifirm.net'       #Snap
+    - 'DOMAIN-SUFFIX,hiunlock.com'     #Snap
+    - 'DOMAIN-SUFFIX,apkmirror.com'    #APK
+    - 'DOMAIN-SUFFIX,f-droid.org'      #APK
+    - 'DOMAIN-SUFFIX,magisk.vip'       #APK
+    - 'DOMAIN-SUFFIX,gg155gg1.com'     #Porn
+    - 'DOMAIN-SUFFIX,skrbtwc.top'      #BT
+    - 'DOMAIN-SUFFIX,onesignal.com'    #InterLink
+    - 'DOMAIN-SUFFIX,interlinklabs.ai' #InterLink
+    - 'DOMAIN-SUFFIX,cointelegraph.com'#InterLink
+    - 'DOMAIN-SUFFIX,coingecko.com'    #BTC
+    - 'DOMAIN-SUFFIX,applovin.com'     #InterLink
+    - 'DOMAIN-SUFFIX,walletconnect.org'#InterLink
+    - 'DOMAIN-SUFFIX,web3modal.org'    #InterLink
+    - 'DOMAIN-SUFFIX,trustwallet.com'  #BTC
+    - 'DOMAIN-SUFFIX,posthod.com'      #BTC
+    - 'DOMAIN-SUFFIX,twnodes.com'      #BTC
+    - 'DOMAIN-SUFFIX,banxa.com'        #BTC
+    - 'DOMAIN-SUFFIX,geckoterminal.com'#BTC
+    - 'DOMAIN-SUFFIX,walletconnect.com'#BTC
+    - 'DOMAIN-SUFFIX,reown.com'        #BTC
+    - 'DOMAIN-SUFFIX,expo.dev'         #BTC
+    - 'DOMAIN-SUFFIX,bnbchain.org'     #BTC
+    - 'DOMAIN-SUFFIX,coinbase.com'     #BTC
+    - 'DOMAIN-SUFFIX,aboluowang.com'   #NEWS
+    - 'DOMAIN-SUFFIX,kanuswest.com'    #NEWS
+    - 'DOMAIN-SUFFIX,getemoji.com'     #Emoji
+    - 'DOMAIN-SUFFIX,fofa.info'        #HACK
+    - 'DOMAIN-SUFFIX,oracle.com'       #Oracle
+    - 'DOMAIN-SUFFIX,claw.cloud'       #cloud
+    - 'DOMAIN-SUFFIX,digitalplat.org'  #cloud
+    - 'DOMAIN-SUFFIX,hostypanel.com'   #cloud
+    - 'DOMAIN-SUFFIX,phala.network'    #Cloud
+    - 'DOMAIN-SUFFIX,googiehost.com'   #Cloud
+    - 'DOMAIN-SUFFIX,cdn-telegram.org' #Telegram
+    - 'DOMAIN-SUFFIX,onepiecepodcast.com' #One-Piece
+    - 'DOMAIN-SUFFIX,citizenlab.ca'      #citizenlab
+#    - 'DOMAIN-SUFFIX,paypal.com'      #Paypal
+#    - 'DOMAIN-SUFFIX,paypalobjects.com'      #Paypal
+    - 'DOMAIN-SUFFIX,zmkk.fun'      #BBS
+#    - 'DOMAIN-SUFFIX,cloudflare-ech.com'      #CloudFlare
+    - 'DOMAIN-SUFFIX,mojie.la'      #PROXY
+    - 'DOMAIN-SUFFIX,webhostmost.com'      #PROXY
+    - 'DOMAIN-SUFFIX,databricks.com'      #PROXYricks.com
+    - 'DOMAIN-SUFFIX,hcaptcha.com'      #Test-code
+    - 'DOMAIN-SUFFIX,zendesk.com'      #Test-code
+    - 'DOMAIN-SUFFIX,mmcks.top'      #VPN
+    - 'DOMAIN-SUFFIX,assets.nflxext.com' #NetFlix
+    - 'DOMAIN-SUFFIX,jsdelivr.net' #JS
+    - 'DOMAIN-SUFFIX,jsdelivr.com' #JS
+    - 'DOMAIN-SUFFIX,uptodown.com' #APK
+    - 'DOMAIN-SUFFIX,newpipe.net' #TV
+    - 'DOMAIN-SUFFIX,yewtu.be' #TV
+    - 'DOMAIN-SUFFIX,nadeko.net' #TV
+    - 'DOMAIN-SUFFIX,galxe.com' #Coin
+    - 'DOMAIN-SUFFIX,live-video.net' #Twitch
+    - 'DOMAIN-SUFFIX,vpsxb.net' #VPS
+    - 'DOMAIN-SUFFIX,nodeseek.com' #VPS
+    - 'DOMAIN-SUFFIX,mojie.ws'  #VPN
+    - 'DOMAIN-SUFFIX,torproject.org'      #BT
+    - 'DOMAIN-SUFFIX,hfhfb.homes'
+    - 'DOMAIN-SUFFIX,clv2b.com'
+    - 'DOMAIN-SUFFIX,ampproject.org'      #Google
+    - 'DOMAIN-SUFFIX,unity3d.com'      #Game
+    - 'DOMAIN-SUFFIX,pan.noki.workers.dev'      #CF-worker
+    - 'DOMAIN-SUFFIX,pangle.io'      #Panel
+    - 'DOMAIN-SUFFIX,inner-active.mobi'
+    - 'DOMAIN-SUFFIX,acobt.tech'
+    - 'DOMAIN-SUFFIX,moloco.com'
+    - 'DOMAIN-SUFFIX,safedk.com'
+    - 'DOMAIN-SUFFIX,chartboosy.com'
+    - 'DOMAIN-SUFFIX,gfw.report'      #GFW
+    - 'DOMAIN-SUFFIX,aisejushi6.com'
+    - 'DOMAIN-SUFFIX,autoproxy.org'	
+    - 'DOMAIN-SUFFIX,sysinfosec.net'
+    - 'DOMAIN-SUFFIX,emojipedia.org'
+    - 'DOMAIN-SUFFIX,roblox.com'
+    - 'DOMAIN-SUFFIX,rbxcdn.com'
+    - 'DOMAIN-SUFFIX,cloudflareinsights.com'
+    - 'DOMAIN-SUFFIX,dler.io'      #VPN
+    - 'DOMAIN-SUFFIX,violin.co.th' #Speed
+    - 'DOMAIN-SUFFIX,sap.com' #SapCloud
+    - 'DOMAIN-SUFFIX,ondemand.com'
+    - 'DOMAIN-SUFFIX,winscp.net'
+    - 'DOMAIN-SUFFIX,crystalmark.info'    
+    - 'DOMAIN-SUFFIX,mxzu.net'
+    - 'DOMAIN-SUFFIX,patreon.com'
+    - 'DOMAIN-SUFFIX,patreonusercontent.com'
+    - 'IP-CIDR,3.96.151.58/32'                               
+    - 'DOMAIN-SUFFIX,licdn.com'
+    - 'DOMAIN-SUFFIX,xl720.com' #MovieDownload
+    - 'DOMAIN-SUFFIX,8functionstest.com'
+    - 'DOMAIN-SUFFIX,kiteyuan.info'
+    - 'DOMAIN-SUFFIX,ero-labs.com'
+    - 'DOMAIN-SUFFIX,ero-labs.info'
