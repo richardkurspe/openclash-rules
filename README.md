@@ -105,4 +105,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rules/Direct.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
+```
+
+---
+
+### ❤️ 特别感谢
+
+- 我们出色的用户社区
+- 开源社区的启发
 
