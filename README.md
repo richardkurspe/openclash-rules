@@ -1,4 +1,5 @@
 > ⚠️ 本项目仅供学习研究使用，请勿用于商业用途
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 # 🚀 OpenClash 常见规则集
 
 > 🎯 一个专为 **OpenClash / Clash.Meta** 打造的高效规则集,内含去广告规则&附加代理规则&直连规则&特殊网站分流规则等等,一个项目全搞定！ 
