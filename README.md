@@ -5,6 +5,11 @@
 ![Stars](https://img.shields.io/github/stars/richardkurspe/openclash-rules)
 ![Forks](https://img.shields.io/github/forks/richardkurspe/openclash-rules)
 ![Issues](https://img.shields.io/github/issues/richardkurspe/openclash-rules)
+![OpenClash](https://img.shields.io/badge/OpenClash-Rules-green)
+![AdBlock](https://img.shields.io/badge/AdBlock-Enabled-blue)
+![Lightweight](https://img.shields.io/badge/Design-Lightweight-orange)
+![Platform](https://img.shields.io/badge/Platform-OpenClash%20%7C%20Clash.Meta-blue)
+![Ads Blocked](https://img.shields.io/badge/Ads-Blocked-red)
 
 > 🎯 一个专为 **OpenClash / Clash.Meta** 打造的高效规则集,内含去广告规则&附加代理规则&直连规则&特殊网站分流规则等等,一个项目全搞定！ 
 >
