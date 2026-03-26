@@ -65,9 +65,31 @@ openclash-rules/
 
 ```yaml
 rule-providers:
-  adblock:
+  Reject:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/main/rule.yaml
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Reject.yaml
     path: ./ruleset/ad.yaml
     interval: 86400
+
+  Additional:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Additional.yaml
+    path: ./ruleset/ad.yaml
+    interval: 86400
+
+  Special:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Special.yaml
+    path: ./ruleset/ad.yaml
+    interval: 86400
+
+   Direct:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/richardkurspe/openclash-rules/rules/Direct.yaml
+    path: ./ruleset/ad.yaml
+    interval: 86400
+
