@@ -1,6 +1,5 @@
 rules:
 #DIRECT-Website
-    - 'DOMAIN,9pvc9ewxcc.r.worldssl.net' #Mitce-Update
     - 'DOMAIN,api.ttt.sh' #OpenClash-Check
     - 'DOMAIN-SUFFIX,skk.moe' #Openclash-Check
     - 'DOMAIN-SUFFIX,www.macworld.com'
@@ -14,7 +13,7 @@ rules:
 #CDN&JS&CSS
     - 'DOMAIN-SUFFIX,zohocdn.com'
     - 'DOMAIN-SUFFIX,zohopublic.com'
-#RichardTV+Porn
+#Vod
     - 'DOMAIN-SUFFIX,watch-my-gf.com'
     - 'DOMAIN-SUFFIX,v155p.com'
     - 'DOMAIN-KEYWORD,ukuapi'
