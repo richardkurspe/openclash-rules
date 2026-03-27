@@ -3,7 +3,6 @@ rules:
     - 'IP-CIDR,203.116.121.7/32'
     - 'IP-CIDR,45.33.0.0/16'
     - 'DOMAIN-SUFFIX,h-flash.com'
-    - 'DOMAIN-SUFFIX,whereisminerva.com'
     - 'DOMAIN-SUFFIX,w3.org'
     - 'DOMAIN-SUFFIX,nnhanman.xyz'
     - 'DOMAIN-SUFFIX,TopToon03.xyz'
